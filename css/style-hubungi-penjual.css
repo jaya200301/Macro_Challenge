@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #f6f6f6;
+}
+
+/* Navigasi */
+.head {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 80px;
+  margin-bottom: 10px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.head img {
+  height: 20px;
+}
+
+.head-title {
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 30px 80px;
+  background: white;
+}
+
+/* Card Pesanan */
+.container-card {
+  margin-bottom: 20px;
+  padding: 30px 80px;
+  background: white;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: #fceee2;
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+
+.card-pesanan {
+  height: 160px;
+  background: grey;
+  border-radius: 10px;
+}
+
+.card-pesanan img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.text-card-pesanan {
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Percaapan */
+
+/* Kirim Pesan */
+.tag {
+  border: 1px solid #fa8617;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.kirim-pesan form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //background: blue;
+}
+
+input {
+  width: 70%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #fa8617;
+}
+
+button {
+  width: 20%;
+  padding: 10px 20px;
+  border: 2px solid #fa8617;
+  border-radius: 5px;
+  color: white;
+  background: #fa8617;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #fa8500;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #fa8500;
+}
+
+a:hover {
+  color: #fa8500;
+}

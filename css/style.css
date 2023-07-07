@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 92px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.wrapper ul>li>a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.wrapper img{
+  width: 150px;
+  height: auto;
+  margin-left: 64px;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000000;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: 65px;
+}
+
+.navigation>li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navigation>li>.navi {
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation>li>.navi:hover {
+  transition: all .3s ease-in-out;
+}
+
+.tmb {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  background: #ffffff;
+  color: #FA8617;
+  border: 3px solid #FA8617;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition: all .3s ease-in-out;
+}
+
+.tmb {
+  text-decoration: none;
+}
+
+.tmb:hover {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  background: #FA8617;
+  color: #ffffff;
+  border: 3px solid #FA8617;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition: all .3s ease-in-out;
+}
+
+.profil img {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all .2s ease-in-out;
+}
+
+.profil img:hover {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  transition: all .2s ease-in-out;
+}
+/* End of Navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tentang */
+.sampul {
+  margin-top: 10px;
+  padding: 40px 10% 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.isi{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.layan1{
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid #798DD6;
+  border-radius: 10px;
+}
+
+.layan2{
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid #EB455F;
+  border-radius: 10px;
+}
+
+.layan3{
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid #F9C823;
+  border-radius: 10px;
+}
+
+.layan4{
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid #EB455F;
+  border-radius: 10px;
+}
+
+.ilustrasi {
+  width: 50%;
+  height: auto;
+  position: static;
+}
+
+.text-container {
+  position: relative;
+  padding-left: 30px;
+}
+
+.text-container h1{
+  font-size: 64px;
+}
+
+.text-container p {
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+
+
+
+
+
+/* Layanan Kami */
+.layanan-kami {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.layanan-kami img {
+  width: 100%;
+}
+
+.lk-center {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  color: white;
+}
+
+.foto {
+  width: 50%;
+  position: static;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 10%;
+  background-color: #fa8617;
+}
+
+footer p {
+  font-size: 18pt;
+  text-align: center;
+  color: white;
+  margin: 15px 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Log In */
+.login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
+.login a:hover {
+  border-bottom: 1px solid black;
+}
+
+.login-img {
+  width: 50%;
+}
+
+.login-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.login-form {
+  text-align: center;
+  margin: auto 0;
+  padding: 0 60px;
+  width: 40%;
+}
+
+.login-form input {
+  padding: 10px 0;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-form button {
+  color: white;
+  background-color: #fa8617;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 100%;
+  border: 2px solid #fa8617;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.login-form a {
+  text-align: right;
+}
+
+.login-api {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border: 2px solid #9f9f9f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.login-api img {
+  width: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kontak Kami */
+.kontak {
+  height: 75vh;
+  margin-top: 20px;
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../img/kontak-bg.svg");
+}
+
+.deskripsi {
+  width: 50%;
+  font-size: 32px;
+}
+
+.deskripsi h1{
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.ikon {
+  margin-top: 40px;
+}
+
+.ikon ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.ikon ul a {
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.pesan {
+  width: 50%;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+  background: #ffebd8e5;
+  padding: 10px 20px;
+}
+
+form{
+  margin-top: 55px;
+  margin-left: 50px;
+}
+
+.pesan label {
+  font-size: 10pt;
+}
+
+.pesan input {
+  width: 85%;
+  margin-bottom: 10px;
+  background: #ffebd8;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+}
+
+.pesan textarea {
+  width: 85%;
+  background: #ffebd8;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+}
+
+.pesan button {
+  float: left;
+  background: #ffebd8;
+  transition: all .3s ease-in-out;
+}
+
+.pesan button:hover {
+  background: #fa8617;
+  transition: all .3s ease-in-out;
+}
+
+/* Footer */
+footer {
+  padding: 20px 10%;
+  background-color: #fa8617;
+}
+
+footer p {
+  font-size: 16pt;
+  text-align: center;
+  color: white;
+  margin: 15px 0;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer img {
+  width: 45px;
+  height: auto;
+}

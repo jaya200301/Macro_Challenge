@@ -1,0 +1,417 @@
+body {
+    background-color: #F6F6F6;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    line-height: 25px;
+}
+
+/* Navbar */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper .buat {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45%;
+}
+
+.wrapper .arrow {
+    margin-left: 64px;
+    width: 60px;
+    height: auto;
+}
+
+.wrapper h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 38px;
+}
+
+/* End of Navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Profil*/
+.tagprof {
+    margin-top: 50px;
+    margin-left: 64px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.range {
+    width: 100%;
+    height: 20px;
+    background-color: #e9e9e9;
+}
+
+.profilku {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.bni {
+    width: 80%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+}
+
+.detail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.detail p {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 10px 120px;
+}
+
+.detail img {
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.pesan {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.pesan p {
+    width: 80%;
+    padding: 30px 40px;
+    background-color: #FCEEE2;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.rekening {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.rekening p {
+    width: 80%;
+    font-size: 30px;
+}
+
+.rekening h2 {
+    width: 80%;
+    font-size: 50px;
+}
+
+
+
+
+
+.ringkas {
+    margin-top: 50px;
+    margin-left: 64px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.metode {
+    width: 50%;
+    height: auto;
+    margin-left: 64px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.pilih {
+    width: 80%;
+    margin-bottom: 32px;
+    padding: 20px 50px;
+    background-color: #FCEEE2;
+    border-radius: 10px;
+}
+
+.pilih a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.metode p {
+    font-size: 20px;
+}
+
+.mesan {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.table {
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-bottom: 32px;
+    width: 80%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.table th {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px 15px;
+}
+
+.total {
+    width: 100%;
+    height: auto;
+}
+
+.harga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 64px;
+    align-items: center;
+}
+
+.hubungi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 64px;
+    align-items: center;
+}
+
+.tunggu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 64px;
+    align-items: center;
+}
+
+.total h1 {
+    color: #000000;
+}
+
+.tmb {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    background: #ffffff;
+    color: #FA8617;
+    border: 3px solid #FA8617;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tmb {
+    text-decoration: none;
+}
+
+.tmb:hover {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FA8617;
+    color: #ffffff;
+    border: 3px solid #FA8617;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tmb1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    background: #ffffff;
+    color: #FA8617;
+    border: 3px solid #FA8617;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tmb1 {
+    text-decoration: none;
+}
+
+.tmb2{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FA8617;
+    color: #ffffff;
+    border: 3px solid #FA8617;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tmb2 {
+    text-decoration: none;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.rincian {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    background-color: #FCEEE2;
+    width: 93%;
+    height: auto;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+.pesanan {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    justify-content: left;
+    padding-left: 32px;
+    align-items: center;
+}
+
+.pesanan img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 64px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pesanan p {
+    width: 50%;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.pesan {
+    width: 50%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.pilih img{
+    width: 200px;
+    height: auto;
+}
+
+.pilih .trans{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    padding: 20px 10%;
+    background-color: #fa8617;
+}
+
+footer p {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    margin: 15px 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer img {
+    width: 45px;
+    height: auto;
+}
